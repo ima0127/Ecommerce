@@ -1,0 +1,42 @@
+.producto{
+
+    max-width: 85%;
+    margin: 2rem auto;
+    flex-wrap: wrap;
+
+}
+
+.titulo__producto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 95%;
+}
+
+.ver{
+    cursor: pointer;
+    color: #2A7AE4;
+}
+
+.all__producto{
+    display: flex;
+    max-width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    
+    
+}
+
+.info__producto{
+    display:block;
+    margin-right: .7rem;
+}
+
+.precio{
+    font-weight: bold;
+}
+
+.ver__producto{
+    color: #2A7AE4;
+    font-weight: bold;
+}

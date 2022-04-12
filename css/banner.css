@@ -1,0 +1,37 @@
+.banner{
+    width:100%;
+    height: 50%;
+    background-image: url("../img/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    position: relative;
+    top: 0;
+    bottom: 0;
+
+}
+
+.banner__texto{
+    padding: 7.5rem 0 2rem 10%;
+}
+
+.titulo__banner{
+    color:#ffff;
+    font-size: 2.8rem;
+}
+
+.parrafo__banner{
+    color: #ffff;
+}
+
+.button__banner{
+    margin-top: 2rem;
+    padding: .7rem;
+    color: #ffff;
+    background-color: #2A7AE4;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+    font-size: .8rem;
+}

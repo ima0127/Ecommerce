@@ -1,0 +1,77 @@
+header{
+    width: 100%;
+    background-color: #FFFFFF;
+}
+.principal{
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    max-width: 80%;
+    margin: 0 auto;
+
+}
+
+
+.logo{
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+.fa-magnifying-glass{
+    
+    font-size: 25px;
+}
+
+.search__button{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+
+
+
+}
+
+.search{
+    border: none;
+    border-radius: 1rem;
+    padding: .5rem;
+    width: 30rem;
+    background: #F5F5F5;
+    justify-content:flex-start;
+  
+}
+
+.search::placeholder{
+    font-size: .8rem;
+    background-image: url(../img/magnifying-glass-solid.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 16px;
+    cursor: pointer;
+    color: #A2A2A2;
+}
+
+.search:focus{
+    outline: none;
+}
+
+
+.login{
+
+    padding:.5rem;
+    width: 7rem;
+    color: #2A7AE4;
+    border: 1px solid;
+    cursor: pointer;
+    background: #FFFFFF;
+    margin: auto;
+}
+
+.logo__resposive{
+    display: none;
+}
+
+.search__hidden{
+    display: none;
+}

@@ -1,0 +1,53 @@
+
+.sobre__nosotros{
+    padding: 1rem ;
+    background-color: #EAF2FD;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.all__container{
+    display: flex;
+    max-width: 85%;
+    margin: 5rem ;
+}
+
+.nosotros__formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+.text__none{
+    list-style: none;
+    margin: 1.3rem 0;
+}
+
+.mensajeria__links{
+    color:#464646;
+    font-weight: bold;
+}
+
+.label__text{
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.input__nombre{
+    padding: 6px;
+    width: 35rem;
+    margin-bottom: 1rem;
+}
+
+.mensajeria__formulario{
+    margin-bottom: 1rem;
+    resize: none;
+}
+
+.boton__formulario{
+    padding: 1rem;
+    width: 9rem;
+    background: #2A7AE4;
+    border: none;
+    color: #FFFFFF;
+}
