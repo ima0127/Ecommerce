@@ -6,3 +6,10 @@ body{
 a{
     text-decoration: none;
 }
+.precio{
+    font-weight: bold;
+}
+
+main{
+    background: #f7f5f5;
+}

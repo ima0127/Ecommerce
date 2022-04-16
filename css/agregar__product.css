@@ -1,0 +1,106 @@
+.container__add{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+.add__product label{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.add__product{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.add__product input{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+
+.box__add{
+    width: 250px;
+    height: 150px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border: dashed #cccaca;
+}
+
+.fa-image{
+    color: #cccaca;
+    font-size: 25px;
+
+}
+
+.box__inside{
+    display: flex;
+    justify-content: center;
+    color: #cccaca;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.add__file{
+    padding: 10px;
+    color: #2A7AE4;
+    border: solid 2px #2A7AE4;
+}
+
+.text__area{
+    resize: none;
+    margin-bottom: 10px;
+}
+
+.subir__file{
+    background: #2A7AE4;
+    color: #fff;
+    border: none;
+}
+
+
+@media screen and (max-width:500px) {
+    
+    .add__product{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .hidden__o{
+        display: none;
+    }
+    .add__file{
+        display: none;
+    }
+
+    .box{
+        width: 100%;
+    }
+    
+
+    .box__add{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}

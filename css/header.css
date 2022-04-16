@@ -72,6 +72,10 @@ header{
     display: none;
 }
 
+.fa-magnifying-glass{
+    color: #A2A2A2;
+}
+
 .search__hidden{
     display: none;
 }

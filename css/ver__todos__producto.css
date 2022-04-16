@@ -1,0 +1,19 @@
+.add__producto{
+    padding: 1rem;
+    border: none;
+    background: #2A7AE4;
+    color: #fff;
+}
+
+
+@media screen and (max-width:500px){
+    .titulo__producto{
+        display: flex;
+        flex-direction: column;
+        padding-bottom:20px;
+    }
+    
+    .titulo__producto h1{
+       font-size: 25px;
+    }
+}
