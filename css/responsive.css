@@ -72,7 +72,31 @@
         justify-content: space-evenly;
     }
     .search{
-        display: none
+        display: none;
+    }
+    .search__display{
+        display: none;
+    }
+    .mostrar__search .search__display{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding: 10px;
+        width: 21rem;
+        margin-bottom: 10px;
+    }
+    .search__display::placeholder{
+        font-size: .8rem;
+        background-image: url(../img/magnifying-glass-solid.svg);
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-size: 16px;
+        cursor: pointer;
+        color: #A2A2A2;
+    }
+    .mostrar__search header{
+        padding-bottom: 30px;
+        flex-direction: column;
     }
     .producto__hidden{
         display: flex;

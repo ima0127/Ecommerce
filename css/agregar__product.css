@@ -67,6 +67,7 @@
     padding: 10px;
     color: #2A7AE4;
     border: solid 2px #2A7AE4;
+    cursor: pointer;
 }
 
 .text__area{
@@ -78,6 +79,7 @@
     background: #2A7AE4;
     color: #fff;
     border: none;
+    cursor: pointer;
 }
 
 

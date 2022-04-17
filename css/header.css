@@ -1,6 +1,7 @@
 header{
     width: 100%;
     background-color: #FFFFFF;
+    
 }
 .principal{
     display: flex;
@@ -26,9 +27,6 @@ header{
     display: flex;
     justify-content: space-between;
     width: 100%;
-
-
-
 
 }
 
@@ -74,6 +72,7 @@ header{
 
 .fa-magnifying-glass{
     color: #A2A2A2;
+    cursor: pointer;
 }
 
 .search__hidden{

@@ -17,14 +17,15 @@
     <link rel="stylesheet" href="./css/responsive.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class="principal">
-            <div class="logo__container"><a href="index.html">
-                <img class="logo" src="./img/Logo (1).svg"  alt="logo de Alura Geek">
-            </div><div class="logo__resposive">
-                <img class="logo__pequeño" src="./img/logo__responsivo(x).png"  alt="logo de Alura Geek">
-            </div>
-            </a>
+            <div class="logo__container">
+                <a href="index.html">
+                    <img class="logo" src="./img/Logo (1).svg"  alt="logo de Alura Geek">
+                    </div><div class="logo__resposive">
+                        <img class="logo__pequeño" src="./img/logo__responsivo(x).png"  alt="logo de Alura Geek">
+                    </div>
+                </a>
 
             <div class="search__button">
                 <form action="">
@@ -38,9 +39,12 @@
                         <input class="login" type="submit" value="Login">
                     </a>
                 </div>
-
+                
             </div>
         </div>
+        <form action="">
+            <input name="search" class="search__display"  type="search" placeholder="¿Qué deseas buscar?">
+        </form>
     </header>
     <main>
        
@@ -154,5 +158,8 @@
         <h3>Desarrollado por <a href="https://github.com/ima0127?tab=repositories" target="blank">Ismael Peralta</a></h3>
         <h3>2022</h3>
     </footer>
+
+    <script src="./script__show__search.js"></script>
+
 </body>
 </html>

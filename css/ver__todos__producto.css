@@ -3,8 +3,13 @@
     border: none;
     background: #2A7AE4;
     color: #fff;
+    cursor: pointer;
 }
 
+.titulo__texto{
+    font-size: 25px;
+    padding-top: 20px;
+}
 
 @media screen and (max-width:500px){
     .titulo__producto{

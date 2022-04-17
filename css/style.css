@@ -13,3 +13,7 @@ a{
 main{
     background: #f7f5f5;
 }
+
+.search__display{
+    display: none;
+}
